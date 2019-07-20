@@ -1,0 +1,14 @@
+{
+  "name": "api-interview-challenge-daniel-sikor",
+  "version": "1.0.0",
+  "description": "get/post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Sikor",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
