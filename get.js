@@ -1,6 +1,8 @@
+//Request framework
 var request = require("request");
 
 var options = { method: 'GET',
+//API url to get data
   url: 'https://api-interview-challenge.poweredbyjourney.com/line_items/',
   headers: 
    { 'cache-control': 'no-cache',
@@ -11,6 +13,7 @@ var options = { method: 'GET',
      'Cache-Control': 'no-cache',
      Accept: '*/*',
      'User-Agent': 'PostmanRuntime/7.15.0',
+     // Auth in order to get data
      Authorization: 'Bearer glup3jjvzxkp1r33pipwld',
      'Content-Type': 'application/json' } };
 

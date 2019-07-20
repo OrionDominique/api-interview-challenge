@@ -1,14 +1,18 @@
+//Request framework
 var request = require("request");
 
 var options = { method: 'POST',
+//API url to post data
   url: 'https://api-interview-challenge.poweredbyjourney.com/purchase_order/',
   headers: 
    { 'Postman-Token': 'cc0bfbe5-9895-4475-9cf1-56e5f028d75f',
      'cache-control': 'no-cache',
+     // Auth in order to post data
      Authorization: 'Bearer glup3jjvzxkp1r33pipwld',
      Submission: 'Daniel3',
      'Content-Type': 'application/json' },
   body: 
+  // Post data using this body
    { po4vlhht: 
       [ { lineItemId: 'ypvzh',
           stockCode: '3333',
